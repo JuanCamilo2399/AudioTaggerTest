@@ -47,6 +47,23 @@ def plot_sound_event_detection_result(framewise_output):
     plt.savefig(out_fig_path)
     print('Save fig to {}'.format(out_fig_path))
 
+def framewise_out_to_events(
+        framewise_output,
+        labels,
+        audio_duration,
+        threshold=0.25,
+        min_event_duration=0.2,
+        merge_gap=0.15,
+        max_classes = 10
+):
+    
+    # obtaining size of frame-classes matrix
+    time_steps, classes_num = framewise_output.shape
+    frame_times = np.linspace(0, audio_duration, time_steps)
+
+    classwise_max = np.max(framewise_output, axis=0)
+    
+
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 audios_dir = Path(CURRENT_DIR) / "Video_Audios"
 file_names = os.listdir(audios_dir)

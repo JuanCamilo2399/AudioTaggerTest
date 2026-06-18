@@ -88,3 +88,14 @@ def ensure_sample_rate(original_sample_rate, waveform,
     waveform = resample(waveform, desired_length)
   return desired_sample_rate, waveform
 
+def second_to_srt_time(seconds):
+    """Convert seconds to SRT timestamp format."""
+    ms = int((seconds - int(seconds)) * 1e3)
+    total_seconds = int(seconds)
+
+    h = total_seconds // 3600
+    m = (total_seconds % 3600) // 60
+    s = total_seconds % 60
+
+    return f"{h:02d}:{m:02d}:{s:02d},{ms:03d}"
+
