@@ -12,8 +12,9 @@ videos_path = Path(CURRENT_DIR) / "Videos"
 file_names = os.listdir(videos_path)
 
 # Commented out audios have been extracted already 
+print(f"Number of videos : {len(file_names)}")
 for i, name in enumerate(file_names):
-    print(f"Number of videos : {len(file_names)}")
+    
     video_path = videos_path / name
     audio_name = "audio_from_video" + "_" + str(i) + ".wav"
     audio_path = audios_dir / audio_name
