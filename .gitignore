@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+# cache de picos de REAPER
+*.reapeaks
+# resultados que se regeneran: videos subtitulados y cachés de características
+python/results/**/*_subtitulado.mp4
+python/results/**/*_motion_labels.mp4
+python/results/**/*_robot_motion_pred.mp4
+python/results/**/features_*.npz
+
+# documentos privados (Word) que no van al repositorio
+docs/*.docx
+
+# --- C++ / JUCE (cpp/PannsLive) ---
+# compilación de CMake (JUCE y ONNX Runtime se descargan aquí)
+cpp/PannsLive/build/
+cpp/PannsLive/out/
+.vs/
+# el modelo de trabajo no se sube desde Models/; el que va al repo está en bin/Models/
+cpp/PannsLive/Models/*.onnx
+# salidas de la app
+cpp/PannsLive/**/Logs/
+cpp/PannsLive/Recordings/
+
+# SDK de ASIO: se baja aparte (ver cpp/PannsLive/README.md)
+ASIOSDK/
+.vscode/
