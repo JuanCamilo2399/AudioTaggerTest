@@ -1,0 +1,11 @@
+label,score
+Speech,0.687
+Vehicle,0.273
+"Domestic animals, pets",0.146
+Dog,0.128
+Animal,0.118
+"Boat, Water vehicle",0.11
+Water,0.082
+"Motorboat, speedboat",0.07
+Car,0.067
+Whimper (dog),0.061

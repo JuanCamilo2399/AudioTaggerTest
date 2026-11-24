@@ -1,0 +1,22 @@
+start,end,label,score
+0.0,2.88,Vehicle,0.362
+3.2,5.44,Speech,0.376
+5.44,7.68,Vehicle,0.225
+8.0,9.28,Speech,0.301
+10.24,11.84,Vehicle,0.23
+10.88,11.84,Train,0.326
+10.88,11.84,"Subway, metro, underground",0.305
+10.88,11.84,Rail transport,0.272
+10.88,11.84,"Railroad car, train wagon",0.267
+11.84,13.44,Speech,0.474
+13.76,17.6,Vehicle,0.286
+14.08,15.36,Speech,0.319
+18.56,24.64,Vehicle,0.357
+24.0,24.64,"Subway, metro, underground",0.17
+24.64,26.24,Speech,0.262
+26.88,27.2,Vehicle,0.157
+31.36,32.32,Speech,0.356
+32.32,34.24,Vehicle,0.223
+35.52,35.84,"Subway, metro, underground",0.156
+35.84,38.72,Vehicle,0.22
+38.72,39.45,Speech,0.474

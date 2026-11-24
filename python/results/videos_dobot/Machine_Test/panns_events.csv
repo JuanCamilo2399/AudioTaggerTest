@@ -1,0 +1,8 @@
+start,end,label,score
+0.96,1.6,Speech,0.183
+5.44,6.08,Speech,0.162
+11.2,11.84,Speech,0.191
+12.16,14.08,Vehicle,0.234
+32.64,33.28,Speech,0.164
+34.88,37.12,Speech,0.692
+37.12,37.76,Vehicle,0.172

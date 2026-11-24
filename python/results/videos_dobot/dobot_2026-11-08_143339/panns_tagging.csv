@@ -1,0 +1,11 @@
+label,score
+Speech,0.662
+Vehicle,0.349
+"Subway, metro, underground",0.243
+Train,0.131
+Sliding door,0.112
+Car,0.088
+Rail transport,0.076
+Microwave oven,0.071
+Door,0.068
+"Outside, urban or manmade",0.065
